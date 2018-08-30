@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="300.0" prefWidth="1400.0" styleClass="anchor-pane" stylesheets="@../application.css" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="110.0" layoutY="150.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="151.0" text="AI 3x3" AnchorPane.leftAnchor="400.0" AnchorPane.topAnchor="160.0" />
+      <Button layoutX="110.0" layoutY="188.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="151.0" text="AI 10x10" AnchorPane.leftAnchor="400.0" AnchorPane.topAnchor="210.0" />
+      <Button layoutX="108.0" layoutY="60.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="151.0" text="HotSeat 3x3" AnchorPane.leftAnchor="400.0" AnchorPane.topAnchor="60.0" />
+      <Button layoutX="108.0" layoutY="99.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="151.0" text="HotSeat 10x10" AnchorPane.leftAnchor="400.0" AnchorPane.topAnchor="110.0" />
+      <Text layoutX="1072.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-bright" text="Users online:" AnchorPane.leftAnchor="1000.0" AnchorPane.topAnchor="50.0" />
+      <Text layoutX="1196.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-bright" text="users_online" AnchorPane.leftAnchor="1200.0" />
+      <Text layoutX="1072.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-bright" text="Global statistics:" AnchorPane.leftAnchor="1000.0" AnchorPane.topAnchor="20.0" />
+      <Text layoutX="1072.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-bright" text="Games running:" AnchorPane.leftAnchor="1000.0" AnchorPane.topAnchor="70.0" />
+      <Text layoutX="1196.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-bright" text="games_running" AnchorPane.leftAnchor="1200.0" AnchorPane.topAnchor="70.0" />
+      <Button layoutX="388.0" layoutY="61.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="151.0" text="Online 3x3" AnchorPane.leftAnchor="600.0" AnchorPane.topAnchor="60.0" />
+      <Button layoutX="300.0" layoutY="110.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="151.0" text="Online 10x10" AnchorPane.leftAnchor="600.0" />
+      <Button layoutX="300.0" layoutY="160.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="151.0" text="With Friend 3x3" AnchorPane.leftAnchor="600.0" />
+      <Button layoutX="300.0" layoutY="210.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="151.0" text="With Friend 10x10" AnchorPane.leftAnchor="600.0" />
+      <ImageView fitHeight="221.0" fitWidth="302.0" layoutX="37.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

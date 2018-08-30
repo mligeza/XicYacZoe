@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="borderPane" maxHeight="1000.0" maxWidth="1400.0" prefHeight="900.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.view.RootLayoutController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+         <menus>
+            <Menu mnemonicParsing="false" text="Game">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Hot Seat">
+                     <graphic>
+                        <MenuButton mnemonicParsing="false">
+                           <items>
+                              <MenuItem fx:id="hs3" mnemonicParsing="false" text="3x3" />
+                              <MenuItem fx:id="hs10" mnemonicParsing="false" text="10x10" />
+                           </items>
+                        </MenuButton>
+                     </graphic>
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false" text="AI">
+                     <graphic>
+                        <MenuButton mnemonicParsing="false">
+                           <items>
+                              <MenuItem fx:id="ai3" mnemonicParsing="false" text="3x3" />
+                              <MenuItem fx:id="ai10" mnemonicParsing="false" text="10x10" />
+                           </items>
+                        </MenuButton>
+                     </graphic>
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false" text="Online">
+                     <graphic>
+                        <MenuButton mnemonicParsing="false">
+                           <items>
+                              <MenuItem fx:id="online3" mnemonicParsing="false" text="3x3" />
+                              <MenuItem fx:id="online10" mnemonicParsing="false" text="10x10" />
+                           </items>
+                        </MenuButton>
+                     </graphic>
+                  </MenuItem>
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem fx:id="about" mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
